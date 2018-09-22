@@ -1,5 +1,5 @@
 using Plots; gr()
-
+using LinearAlgebra
 function draw_neuron(x, y, r; c=:blue)
 
     θs = 0:0.1:2pi
